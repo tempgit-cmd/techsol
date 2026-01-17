@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XXAVI - Software Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to XXAVI</h1>
+        <p>Your trusted partner for professional software solutions.</p>
+        <button onclick="scrollToSection('#services')">Explore Our Services</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About XXAVI</h2>
+        <p>We provide cutting-edge software solutions tailored to your business needs, backed by a team of professional developers.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="service-card">
+            <h3>Custom Software Development</h3>
+            <p>Get tailored software solutions to meet your unique business challenges.</p>
+        </div>
+        <div class="service-card">
+            <h3>Consulting & Strategy</h3>
+            <p>Let our experts guide you through the digital transformation journey.</p>
+        </div>
+        <div class="service-card">
+            <h3>Cloud Solutions</h3>
+            <p>Scalable cloud solutions to power your business operations effectively.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 XXAVI. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
